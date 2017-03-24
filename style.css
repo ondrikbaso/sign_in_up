@@ -50,6 +50,17 @@ body {
 	font-size: 18px;
 }
 
+.wrap .submit {
+	width: 120px;
+	height: 32px;
+	padding: 5px;
+	background-color: #5dd55d;
+	color: #fff;
+	border-radius: 3px;
+	border: 0px;
+	font-size: 18px;
+}
+
 .text {
 	text-align: center;
 	text-decoration: none;
@@ -57,4 +68,9 @@ body {
 
 a {
 	text-decoration: none;
+}
+
+#checkbox {
+	width: auto;
+	height: auto;
 }
