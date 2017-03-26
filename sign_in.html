@@ -3,15 +3,17 @@
 <head>
   <title>sign in</title>
   <link rel="stylesheet" type="text/css" href="style.css">
+  <script rel="stylesheet" src="validation.js"></script>
 </head>
 <body>
   <div class="wrap">
 	<h2>Sign in</h2>
-	<input type="text" name="username" placeholder="Username">
-	<input type="text" name="password" placeholder="Password">
+	<input type="text" name="username" id="username" placeholder="Username">
+	<input type="password" name="password" id="password" placeholder="Password">
 	<input type="checkbox" id="checkbox">Remember me
-	<button class="btn-login">Login</button><br>
+	<button type="button" class="btn-login" onclick="validation();">Login</button>
 	<p><a href="forgot.html">Forgot your password?</a></p>
+	
   </div>
   <div class="text">
   <p>
