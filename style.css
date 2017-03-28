@@ -7,7 +7,7 @@ body {
 }
 
 .wrap {
-	width: 463px;
+	width: 500px;
 	overflow: hidden;
 	margin: auto;
 	margin-top: 160px;
@@ -40,7 +40,7 @@ body {
 }
 
 .wrap .btn-login {
-	width: 462px;
+	width: 460px;
 	height: 40px;
 	padding: 5px;
 	background-color: #5dd55d;
